@@ -18,10 +18,9 @@ function App() {
 
     
     const response = await axios.post('https://xs7t6dtqc0.execute-api.sa-east-1.amazonaws.com/dev/hello', {
-      name: 'Anythig'
+      user
     });
 
-    console.log(user);
     console.log(response);
   }
 
